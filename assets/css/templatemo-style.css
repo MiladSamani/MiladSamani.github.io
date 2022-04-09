@@ -13,7 +13,8 @@ body {
 }
 
 #page-wraper {
-    background: url(../images/page-bg.jpg) no-repeat center center fixed;
+    /* background: url(../images/page-bg.jpg) no-repeat center center fixed; */
+    background-color:  rgb(0, 0, 0);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -158,6 +159,7 @@ html {
 
 .menu .social-network {
     margin-top: 60px;
+    
 }
 
 .menu .social-network ul li {
@@ -165,19 +167,20 @@ html {
 }
 
 .menu .social-network ul li a {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     display: inline-block;
     text-align: center;
     line-height: 40px;
     background-color: rgba(0, 0, 0, 0.2);
     color: #fff;
-    font-size: 14px;
+    font-size: 30px;
     transition: all 0.5s;
+    margin: 8px;
 }
 
 .menu .social-network ul li a:hover {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     color: #a43f49;
 }
 
@@ -223,7 +226,7 @@ html {
     left: 10%;
   -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
   -webkit-overflow-scrolling: touch;
-  background-color: #000000;
+  background-color: #a43f49;
   box-sizing: border-box;
   height: 100vh;  
   max-height: 100vh !important;
@@ -295,7 +298,7 @@ html {
 }
 
 .section-heading {
-    text-align: center;
+    text-align: justify;
     padding: 80px 45px;
 }
 
@@ -316,7 +319,7 @@ html {
     margin-top: 5px;
     font-size: 18px;
     color: #fff;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.8px;
 }
 
 
